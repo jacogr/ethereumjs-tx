@@ -71,6 +71,7 @@ module.exports = class Transaction {
     }, {
       name: 'v',
       length: 1,
+      allowZero: true,
       default: new Buffer([0x1c])
     }, {
       name: 'r',
